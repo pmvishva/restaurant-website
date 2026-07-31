@@ -1,0 +1,830 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+#w1{
+
+    height: 80px;
+    width: 80px;
+    bottom: 0%;
+    position: fixed;
+    background-image: url("w1.png");
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(220, 13, 13);
+    height: 80px;
+}
+#master{
+   position: absolute;
+   top:0%;
+   left:0%;
+}
+.menu li{
+    display:flex;
+    color: white;
+    display: inline-flex;
+  padding-bottom: 100%;
+    padding: 30px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    list-style-type: style none;
+   
+}
+.menu li a:hover{
+    color:white;
+    font-weight: 60px;
+}
+#vel{
+    color: orange;
+}
+#Log{
+   color: orange;
+    border: 2px solid rgba(255, 166, 0, 0.9);
+    width: 100px;
+    border-radius: 15px;
+    padding: 0px;
+    text-align: center;
+    background-color: #ffffff00;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#Log:hover{
+background-color: orange;
+color: white;
+}
+
+
+    
+
+
+#Sig:hover {
+    background-color: orange;
+    color: white;
+}
+img{
+    margin: 2%;
+    padding-left: 2%;
+}
+#call{
+
+     background-color: rgba(239, 70, 13, 0.89);
+    color:whitesmoke;
+    border-radius: 30px;
+    height:30px;
+    margin: 10px 10px; 
+    padding: 1%;
+    font-weight: bold;
+}
+.F1{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+animation: slid 50s linear infinite;
+}
+@keyframes slid{
+    0%{background-image: url("Biryani\'s\ House.jpg");}
+    30%{background-image: url("Dum-Biryani.png");}
+    60%{background-image: url("Indian-Food.png");}
+    100%{background-image: url("3.png");}
+}
+
+#t1{
+    padding: 10%;
+    color: white;
+
+}
+#t2{
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 10%;
+}
+
+#t3{
+    width: 200px;
+ color:orange;
+   background-color: #ffffff00;
+ border: 2px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left:10%;
+    cursor: pointer;
+    
+}
+#t3:hover{
+
+    background-color: orange;
+    color: white;
+
+}
+
+#t4{
+    color: orange;
+     width: 200px;
+background-color:rgba(255, 255, 255, 0.064);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    position: absolute;
+    left:30%;
+    cursor: pointer;
+}
+#t4:hover{
+    background-color: orange;
+    color:white;
+}
+
+.F2{
+    margin: 1%;
+    height: 300px;
+    background-color: #161c1f52;
+    width: 550px;
+    border-radius:20px;
+    margin-left: 5%;
+}
+.F3{
+    height: 300px;
+    width: 300px;
+    background-image: url("4.png");
+    background-size: cover;
+}
+.F4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+      padding-top: 20%;
+    margin-left: 100%;
+    color: white;
+}
+#Name1{
+ position: absolute;
+ top:208%;
+ left:8%;
+
+
+}
+.F5{
+    margin: 15%;
+    height: 300px;
+    background-color: #161c1f52;
+    
+    width: 550px;
+    border-radius:20px;
+    margin-left: 45%;
+    position: absolute;
+    left: 5%;
+    top:117%;
+     
+}
+
+.F6{
+    height: 300px;
+    width: 300px;
+    background-image: url("5.png");
+    background-size: cover;
+}
+.F7{
+      font-family: Arial, Helvetica, sans-serif;
+     padding-top: 10%;
+    margin-left: 100%;
+    color: white;
+}
+
+#k2{
+    color: white;
+    background-color: rgb(222, 190, 131);
+    margin-top: 20%;
+    height: 50px;
+    width: 200px;
+    margin-left: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.F8{
+    height: 450px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+
+    grid-template: repeat(4,1fr)/repeat(4,1fr);
+    animation: F8 linear;
+    row-gap: 60px;
+    column-gap: 90px;
+    gap: 65px;
+
+
+}
+#R1{
+    margin: 110%;
+    margin-left: 12%;
+    color: red;
+    border: 2px solid rgba(255, 166, 0, 0.9);
+    width: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#R1:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+
+.b{
+    margin-top:4%;
+    padding-top: 0%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    height: 400px;
+    width: 100px;
+    background-color: rgb(232, 232, 237);
+}
+.b:hover{
+
+  transform: translateY(-15px); 
+}
+.box1{
+    padding: 0%;
+   height: 150px;
+   width: 150px;
+   background-image: url("4.png");
+   background-size: cover;
+   position: relative;
+   display: block;
+ 
+}
+#Name1{
+    color: orange;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+    flex-direction: column;
+    opacity: 0;
+    transform: 0.06s;
+}
+#Name1:hover{
+    opacity: 2;
+
+}
+.box2{
+   height: 150px;
+   width: 150px;
+   background-image: url("5.png");
+   background-size: cover;
+  position: relative;
+   display: block;
+}
+#Name2{
+    color: orange;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+    flex-direction: column;
+    opacity: 0;
+    transform: 0.06s;
+}
+#Name2:hover{
+    opacity: 2;
+
+}
+.box3{
+   height: 150px;
+   width: 150px;
+   background-image: url("8.png");
+   background-size: cover;
+  position: relative;
+   display: block;
+}
+#Name3{
+    color: orange;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+    flex-direction: column;
+    opacity: 0;
+    transform: 0.06s;
+}
+#Name3:hover{
+    opacity: 2;
+
+}
+.box4{
+   height: 150px;
+   width: 150px;
+   background-image: url("17.png");
+   background-size: cover;
+    position: relative;
+   display: block;
+ 
+}
+#Name4{
+    color: orange;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px;
+    flex-direction: column;
+    opacity: 0;
+    transform: 0.06s;
+}
+#Name4:hover{
+    opacity: 2;
+
+}
+.box5{
+   height: 150px;
+   width: 150px;
+   background-image: url("19.png");
+   background-size: cover;
+     position: relative;
+   display: block;
+ 
+}
+#Name5{
+    color: orange;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     border-radius: 10px;
+    opacity: 0;
+    transform: 0.06s;
+}
+#Name5:hover{
+    opacity: 2;
+
+}
+
+.box6{
+   height: 150px;
+   width: 150px;
+   background-image: url("20.png");
+   background-size: cover;
+   position: relative;
+   display: block;
+}
+#Name6{
+    color: orange;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+     border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: 0.06s;
+}
+#Name6:hover{
+    opacity: 2;
+
+}
+.box7{
+   height: 150px;
+   width: 150px;
+   background-image: url("k2.png");
+   background-size: cover;
+   position: relative;
+   display: block;
+ 
+}
+#Name7{
+    color: orange;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: 0.06s;
+}
+#Name7:hover{
+    opacity: 2;
+
+}
+.box8{
+   height: 150px;
+   width: 150px;
+   background-image: url("12.png");
+   background-size: cover;
+    position: relative;
+   display: block;
+}
+#Name8{
+    color: orange;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+     border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: 0.06s;
+}
+#Name8:hover{
+    opacity: 2;
+
+}
+#m1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.p1{
+    margin-left: 40%;
+    height: 500px;
+    width:900px;
+    background-image: url("23.png");
+    background-size: cover;
+    border-radius: 20px;
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    padding-left:6%;
+    margin: 0%;
+    font-size: 50px;
+    color: orange;
+}
+#b1{
+     padding-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 50px;
+    width: 80px;
+    padding:20%;
+    padding-left: 10%;
+    border-radius: 30px;
+}
+.man{
+    height: 500px;
+    width: 400px;
+    background-image: url("man.png");
+    position: absolute;
+    top:320%;
+    left:0%;
+}
+.Bg{
+
+ display: flex;
+ background-color: orange;
+ border-radius: 30px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.image1{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#g1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.Form{
+    height: 650px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Form1{
+    height: 590px;
+    width: 500px;
+    background-color: rgba(127, 106, 68, 0.571);
+    background-size: cover;
+    border: 1px solid black;
+    transform: translate(30%);
+    text-align: center;
+    border-radius: 10px;
+
+}
+#S1{
+    color: white;
+    background-color: rgb(255, 166, 0);
+    margin-top: 5%;
+    height: 50px;
+    width: 200px;
+    margin-left: 0%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.CA{
+    font-family: 'Times New Roman', Times, serif;
+}
+.group{
+    position: relative;
+}
+.input1{
+    padding:10px;
+    border: none;
+    border-radius: 4px;
+    font:inherit;
+    color:black;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+.input2{
+    position: absolute;
+    top:0;
+    left:25%;
+    transform:translate(10px,10px);
+    transform-origin:left;
+    transition: tranform .25%;
+
+}
+.input1:focus+.input2,
+.input1:valid+.input2{
+    transform: translate(0,-30px) scale(.8);
+    colo:#d1c;
+    margin-left: 4%;
+}
+.input3{
+    padding:10px;
+    border: none;
+    border-radius: 4px;
+
+    font:inherit;
+    color:black;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+.input4{
+    position: absolute;
+    top:34%;
+    left:29%;
+    transform:translate(10px,10px);
+    transform-origin:left;
+    transition: tranform .24%;
+
+}
+.input3:focus+.input4,
+.input3:valid+.input4{
+    transform: translate(0,-30px) scale(.8);
+    colo:#d1c;
+}
+.input5{
+    padding:10px;
+    border: none;
+    border-radius: 4px;
+    font:inherit;
+    color: black;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+.input6{
+    position: absolute;
+    top:43%;
+    left:30%;
+    transform:translate(10px,10px);
+    transform-origin:left;
+    transition: tranform .25%;
+
+}
+.input5:focus+.input6,
+.input5:valid+.input6{
+    transform: translate(0,-30px) scale(.8);
+    colo:#d1c;
+}
+.input7{
+    padding:10px;
+    border: none;
+    border-radius: 4px;
+    font:inherit;
+    color:black;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+.input8{
+    position: absolute;
+    top:57%;
+    left:30%;
+    transform:translate(10px,10px);
+    transform-origin:left;
+    transition: tranform .25%;
+
+}
+.input7:focus+.input8,
+.input7:valid+.input8{
+    transform: translate(0,-30px) scale(.8);
+    colo:#d1c;
+}
+
+#S1:hover{
+  transform: translateY(-15px);
+}
+
+
+.si{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+ 
+}
+#s0{
+    color: white;
+    margin-left: 44%;
+}
+.Final{
+    margin: 0%;
+    height: 250px;
+    width:100%;
+    display: grid;
+    grid-template:repeat(3,1fr)/repeat(3,2fr);
+    gap: 30px;
+   justify-content: center;
+   align-items: center;
+    row-gap: 60px;
+    column-gap: 90px;
+    gap: 50px;
+}
+
+
+#pk{
+    font-size:20px;
+    text-align: left;
+    margin: 0%;
+    padding: 1%;
+}
+#PK1{
+    position: absolute;
+    top:60%;
+    transform: translate(300%);
+
+}
+
+#PK2{
+    position: absolute;
+    top:57%;
+    transform: translate(280%);
+
+}
+#wk{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.post1{
+margin: 2%;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+   background-color: rgba(255, 255, 255, 0.721);
+   border-radius: 20px;
+   transform: translate(50%);
+
+}
+.post2{
+
+    height: 200px;
+    width: 400px;
+      border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.721);
+   border-radius: 20px;
+ transform: translate(50%);
+}
+#Fb{
+    background-color: coral;
+    color:white;
+    border-radius: 8px;
+     transform: translate(320%);
+     cursor: pointer;
+}
+.Fina{
+    height: 205px;
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+.bottomh1{
+    position: absolute;
+    left:21%;
+    top: 490%;
+}
+#bottomh2{
+     position: absolute;
+    left:21%;
+    top: 500%;
+    list-style: none;
+    font-size: 20px;
+}
+.bottomh3{
+    position: absolute;
+    left:40%;
+    top: 490%;
+}
+#bottomh4{
+     position: absolute;
+    left:40%;
+    top: 500%;
+    list-style: none;
+    font-size: 20px;
+}
+.bottomh5{
+    position: absolute;
+    left:57%;
+    top: 490%;
+}
+#bottomh6{
+     position: absolute;
+    left:57%;
+    top: 500%;
+    list-style: none;
+    font-size: 20px;
+}
+.bottomh7{
+    position: absolute;
+    left:77%;
+    top: 490%;
+}
+#bottomh8{
+     position: absolute;
+    left:73%;
+    top: 490%;
+    list-style: none;
+    font-size: 20px;
+}
